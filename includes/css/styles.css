@@ -1,0 +1,149 @@
+/*
+
+My Custom CSS
+=============
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ #block1 , #block2{
+   text-align: center;
+   border-bottom: 0.5px solid grey;
+ }
+
+ .foot{
+   padding-bottom: 20px;
+   background-color: black;
+ }
+ .link1{
+   margin-bottom: 20px;
+ }
+ #main{
+   margin-top: 35px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchinput{
+      width: 200px;
+   }
+   .navbar-brand{
+      padding: 8px 8px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+      margin-top: 60px;
+   }
+   #myCarousel .item{
+      height: 400px;
+   }
+   .carousel-caption h4{
+      font-size: 25px;
+      
+   }
+
+   #slide1{
+      background: url('../../images/medium01.jpg') top center no-repeat ;
+   }
+    #slide2{
+      background: url('../../images/medium02.jpg') top center no-repeat ;
+   }
+    #slide3{
+      background: url('../../images/medium03.jpg') top center no-repeat ;
+   }
+    #slide4{
+      background: url('../../images/medium04.jpg') top center no-repeat ;
+   }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	#myCarousel .item{
+      height: 310px;
+   }
+
+   #slide1{
+      background: url('../../images/small01.jpg') top center no-repeat ;
+   }
+    #slide2{
+      background: url('../../images/small02.jpg') top center no-repeat ;
+   }
+    #slide3{
+      background: url('../../images/small03.jpg') top center no-repeat ;
+   }
+    #slide4{
+      background: url('../../images/small04.jpg') top center no-repeat ;
+   }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{
+      height: 310px;
+   }
+   .carousel-caption h4{
+      font-size: 20px;
+   
+   }
+
+   #slide1{
+      background: url('../../images/small01.jpg') top center no-repeat ;
+   }
+    #slide2{
+      background: url('../../images/small02.jpg') top center no-repeat ;
+   }
+    #slide3{
+      background: url('../../images/small03.jpg') top center no-repeat ;
+   }
+    #slide4{
+      background: url('../../images/small04.jpg') top center no-repeat ;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{
+      height: 500px;
+   }
+   .carousel-caption h4{
+      font-size: 30px;
+   
+   }
+
+   #slide1{
+      background: url('../../images/large012.jpg') top center no-repeat ;
+   }
+    #slide2{
+      background: url('../../images/large022.jpg') top center no-repeat ;
+   }
+    #slide3{
+      background: url('../../images/large032.jpg') top center no-repeat ;
+   }
+    #slide4{
+      background: url('../../images/large042.jpg') top center no-repeat ;
+   }
+
+}
